@@ -13,9 +13,9 @@ export default function App({ Component, pageProps }) {
     }
     return response.json();
   }
-  return <SWRConfig value={{fetcher}}>
+  return (<SWRConfig value={{fetcher}}>
     <Layout>
       <Component {...pageProps} />
     </Layout>
-  </SWRConfig>;
+  </SWRConfig>)
 }
