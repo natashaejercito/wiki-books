@@ -1,5 +1,5 @@
-import {Container, Nav, Navbar} from "react-bootstrap"
-import Link from "next/link"
+import {Container, Nav, Navbar} from "react-bootstrap";
+import Link from "next/link";
 
 export default function NavBar(){
     return(
@@ -9,7 +9,6 @@ export default function NavBar(){
         <Nav className="me-auto">
             <Nav.Link as={Link} href="/">Books</Nav.Link>
             <Nav.Link as={Link} href="/about">About</Nav.Link>
-            <p>Test push</p>
         </Nav>
     </Container>
     </Navbar>
