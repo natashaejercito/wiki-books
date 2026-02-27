@@ -4,3 +4,6 @@ Purpose: Build a Next.js project to summarize the learnings from WEB422 (half-se
 # Introduction
 WikiBooks is an open-source library where users have access to a variety of books. 
 
+# Tech Stack
+
+# Run Application
